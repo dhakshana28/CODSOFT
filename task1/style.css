@@ -1,0 +1,145 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Header Styles */
+header {
+  background: #0288d1;
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-items a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-items a:hover {
+  color: #ffeb3b;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10%;
+  background: linear-gradient(to right, #e1f5fe, #b3e5fc);
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0277bd;
+}
+
+.highlight {
+  color: #ff9800;
+}
+
+.sub-text {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #0288d1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #01579b;
+}
+
+.hero-img img {
+  border-radius: 10px;
+}
+
+/* Favorite Drinks Section */
+.favorite-drinks {
+  text-align: center;
+  padding: 50px;
+  background: #fff;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0277bd;
+  margin-bottom: 20px;
+}
+
+.drink-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.drink-list img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.drink-list img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #0277bd;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
