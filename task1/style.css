@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ img {
   display: block;
 }
 
-/* Header Styles */
+
 header {
   background: #0288d1;
   color: white;
@@ -58,7 +58,7 @@ header {
   color: #ffeb3b;
 }
 
-/* Hero Section */
+
 .hero-section {
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ header {
   border-radius: 10px;
 }
 
-/* Favorite Drinks Section */
+
 .favorite-drinks {
   text-align: center;
   padding: 50px;
@@ -136,10 +136,94 @@ header {
   transform: scale(1.05);
 }
 
-/* Footer */
+
 footer {
   background: #0277bd;
   color: white;
   text-align: center;
   padding: 10px 0;
+}
+
+/* Menu Section */
+.menu-description {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.drink-item {
+  text-align: center;
+}
+
+.drink-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.drink-price {
+  font-size: 16px;
+  color: #0288d1;
+  font-weight: 500;
+}
+
+
+.about-section {
+  padding: 50px;
+  background: #f0f4f8;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.contact-section {
+  padding: 50px;
+  background: #fff;
+  text-align: center;
+}
+
+.contact-description {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  background: #0288d1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #01579b;
 }
